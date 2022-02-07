@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">panicButton</string>
+	<string name="mode_delete">Borrar</string>
+	<string name="mode_hide">Ocultar</string>
+	<string name="selectHint">Enter here files to Delete/Hide
+Example: /sdcard/nudes.jpg</string>
+	<string name="developer">Developed by: mmppppss</string>
+	<string name="email">ppozosoliz@gmail.com</string>
+	
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center">
+
+	<ImageView
+		android:onClick="borrar"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:shadowColor="#FFF9F9"
+		android:shadowDx="4.0"
+		android:shadowDy="4.0"
+		android:typeface="sans"
+		android:id="@+id/confirmar"
+		android:padding="8dp"
+		android:src="@drawable/icon"/>
+
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:onClick="configurar"
+		android:text="settings"
+		android:layout_marginBottom="10dp"
+		android:layout_marginTop="50dp"
+		android:visibility="visible"/>
+
+	<ScrollView
+		android:layout_margin="15dp"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:orientation="vertical">
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="500dp"
+			android:text="&gt; panicButton log"
+			android:textColor="#EAFF00"
+			android:id="@+id/log"
+			android:layout_margin="5dp"
+			android:lines="3"
+			android:typeface="monospace"
+			android:textSize="12sp"/>
+
+	</ScrollView>
+
+</LinearLayout>
+

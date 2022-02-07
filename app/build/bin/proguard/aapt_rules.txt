@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:29
+-keep class com.mmppppss.panicButton.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.mmppppss.panicButton.borrar { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.mmppppss.panicButton.configurar { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.mmppppss.panicButton.files { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.mmppppss.panicButton.showAbout { <init>(...); }
+
+# onClick res/layout/borrar.xml #generated:9
+-keepclassmembers class * { *** borrar(...); }
+
+# onClick res/layout/borrar.xml #generated:21
+-keepclassmembers class * { *** configurar(...); }
+

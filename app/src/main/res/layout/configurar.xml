@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal">
+
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_margin="10dp">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Mode:"/>
+
+		<ToggleButton
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/Toggle"
+			android:textOn="Delete"
+			android:textOff="Hide"/>
+
+	</LinearLayout>
+
+	<EditText
+		android:id="@+id/listaIndice"
+		android:layout_width="match_parent"
+		android:inputType="textMultiLine"
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:lines="10"
+		android:hint="@string/selectHint"
+		android:layout_margin="12dp"
+		android:textColorHint="#484848"/>
+
+	<Button
+		android:id="@+id/ok"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Ok"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:text="Hide mode coming soon..."
+		android:layout_gravity="left"
+		android:textColor="#7E7E7E"
+		android:layout_marginLeft="10dp">
+
+	</TextView>
+
+</LinearLayout>
+
